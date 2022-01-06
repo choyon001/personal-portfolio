@@ -11,6 +11,7 @@ h1{
 }
 section{
    display: flex;
+   margin-bottom: 100px;
 }
 .half_width{
     width: 50%;
@@ -30,4 +31,24 @@ width: 80%;
 .top_banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.dream_big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:100px ;
+}
+
+.experiance_area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+.experience_bg{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 220px;
 }
