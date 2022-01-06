@@ -52,3 +52,20 @@ width: 80%;
     background-repeat: no-repeat;
     background-position-y: 220px;
 }
+#experience_linear1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#experience_linear2{
+    border-left: 7px solid;
+    border-color: orangered;
+    border-image-slice: 1;
+}
+#footer_align{
+    text-align: center;
+}
+#footer_para{
+    font-weight: bold;
+    font-style: italic;
+}
